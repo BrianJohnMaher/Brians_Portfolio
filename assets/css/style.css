@@ -1,0 +1,78 @@
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .sub-header {
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    margin: 35px auto 0;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    
+    border: 2px solid #000;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  span.first-span {
+    font-size: 32px;
+  }
+  
+  span.special-span {
+    display: block;
+    color: #1feb80;
+    font-size: 2rem;
+  }
+  header,.contact-,me{
+    background-color: #050505;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1.h2{
+    background-color: #46c1e3;
+    padding: 10px;
+    text-decoration: underline;
+    border-radius: 20px;
+  }
+
+  header nav a:not(last-child) {
+    margin-right: 25px;
+  }
+
+  /* figure image style */
+  .image{
+    background-image: uel("https://picsum.photos/1200/800");
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* main body */
+  .portfolio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+/* about me */
+.about-me{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+
+  /* ul > span {
+    color: red;
+  } */
+  (edited)
