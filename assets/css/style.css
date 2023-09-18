@@ -4,50 +4,160 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.h3 {
+  color: black
+}
+
+/* .img-horiseon1 {
+  width: 400px;
+}
+
+.img-horiseon2 {
+  width: 450px;
+  height: 300px;
+} */
 
 a {
   color: #fff;
   text-decoration: none;
-  }
+}
 
-  /* GLOBAL CLASSES */
-  .text-center {
-    text-align: center;
-  }
+/* GLOBAL CLASSES */
+.text-center {
+  text-align: center;
+}
 
-  /* CUSTOMER STYLES */
-  header {
-    background-color: #555;
-    padding: 7px 3%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+/* CUSTOM STYLES */
+header {
+  background-color: #9f9f9f;
+  padding: 7px 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  header h3 {
-    color: #fff;
+header,
+h1,
+h3 {
+  color: #fff;
 
-  }
+}
 
-  header nav a :not(:last-child) {
-    margin-right: 10px
-  }
+header nav a :not(:last-child) {
+  margin-right: 10px
+}
 
-  /* Hero Styles */
-  .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))url(https://picsum.photos/1200/800);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    color: #fff;
+/* Hero Styles */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://picsum.photos/1200/800);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff
+}
+main{
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.img-bitmoji {
+  display: flex;
+  object-position: center;
+  width: 250px;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.portfolio {
+  margin-top: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* padding: 25px 10%; */
+}
+
+.portfolio h3 {
+  color: black;
+  margin-top: 15px;
+}
+
+.work {
+  margin-top: 25;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+article {
+  margin: 10px auto;
+}
+
+.project {
+  color: black;
+  margin-bottom: 25px;
+}
+
+.first {
+  margin: 10px;
+
+    width: 400px;
   
-  }
+  /* background-position: center; */
+  height: 200px;
+}
 
+.img-horiseon2 {
+  width: 350px;
+  height: 250px;
+}
+
+.project:hover {
+  opacity: 0.5;
+}
+
+.work article p{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.contact {
+  text-align: center;
+
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #9f9f9f;
+  padding: 7px 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white
+}
+
+
+/* MEDIA QUERIES */
+/* @media (min-width: 750px) {
   .portfolio {
-    margin-top: 35px;
+    padding: 25px 10%;
   }
-
-  .portfolio h3 {
-    margin-bottom: 25px;
-  }
+} */
